@@ -1,0 +1,99 @@
+998 Type:           SystemStar estimate
+0   Written:        12-10-20 11:28:41
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00221128760506441433228021245
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "online job portal"
+dbselect "COCOMO_II.2000_Waterfall"
+estcomment "component login is estimated details and search for portal is done"
+calcmodel intermediate
+prec 3
+flex 3
+resl 3
+team 3
+pmat 3
+wsname *
+amcf *
+wsstartpoint 2
+wsbreakage 2 10
+wsbreakage 3 10
+wsbreakage 4 10
+wsbreakage 5 10
+efilter e
+rename "login"
+comment "revisit to login is required"
+PCAP  very hi
+RELY     high
+brak 2
+assessment    2
+swunderstand   20
+unfamiliar 0.60
+CM 20
+DM 2
+IM 100
+RQCOST   5000
+PDCOST   4000
+DDCOST   7000
+CTCOST   8000
+ITCOST   6000
+MNCOST   6300
+goto "login"
+subcomp "search for portal"
+comment "search for portal module is estimated"
+wsslocdist y  0 1        1000
+increment 1
+goto "login"
+subcomp "logout"
+comment " providing details is calculated for the project"
+wsslocdist y  0 1        1100
+increment 2
+goto "login"
+subcomp "estimations"
+comment "estimation module is done"
+goto "estimations"
+subcomp "estimations2"
+increment 3
+goto "login"
+subcomp "providing details"
+increment 3
+set auto on
+910 Lines:                       68
+911 Characters:                1250
+912 File Size:                 1596
+913 Checksum 1:                  74
+914 Checksum 2:                 210
+915 Checksum 3: 0462213777041321716
+1000 "online job portal"
+1001 "    "
+1002 152
+1003  100
+1004   1.0000
+1006       6.4592
+1007       6.4592
+1008   0.8459
+1009      12.1559
+1010      12.1559
+1011         2142
+1012         2142
+1013    1.0997
+1014    0.3179
+1015 2
+1016 3
+1017 3
+1018 3
+1019 3
+1020 3
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.18970
+1029   0.00000
+1030 s
+1031 "component login is estimated details and search for portal is done"
