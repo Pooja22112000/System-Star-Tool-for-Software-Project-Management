@@ -1,0 +1,68 @@
+998 Type:           SystemStar estimate
+0   Written:        08-10-20 16:10:27
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00217128760506481422238032235
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "online job portal monto"
+dbselect "COCOMO_II.2000_Waterfall"
+calcmodel intermediate
+prec 3
+flex 3
+resl 3
+team 3
+pmat 3
+wsname *
+amcf *
+wsstartpoint 2
+rename "login"
+wsslocdist y  2 1        1000
+wsslocdist y  2 2        2000
+wsslocdist y  2 3        5000
+RQCOST   4000
+PDCOST   5000
+DDCOST   7000
+CTCOST   8000
+ITCOST   6000
+MNCOST   6300
+increment 1
+set auto on
+910 Lines:                       37
+911 Characters:                 653
+912 File Size:                  937
+913 Checksum 1:                  48
+914 Checksum 2:                  74
+915 Checksum 3: 0462203777658227461
+1000 "online job portal monto"
+1001 "    "
+1002 152
+1003  100
+1004   1.0000
+1006       8.6466
+1007       8.6466
+1008   1.0000
+1009       7.2866
+1010       7.2866
+1011         2667
+1012         2667
+1013    1.0997
+1014    0.3179
+1015 2
+1016 3
+1017 3
+1018 3
+1019 3
+1020 3
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.18970
+1029   0.00000
+1030 s
+1031 ""
